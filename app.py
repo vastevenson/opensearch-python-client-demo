@@ -15,7 +15,7 @@ client = OpenSearch(
     connection_class = RequestsHttpConnection
 )
 
-index_name = 'python-test-index'
+index_name = 'python-test-index-2'
 
 def create_index(index_name):
     # Create an index with non-default settings.
@@ -39,6 +39,6 @@ def create_index(index_name):
     response = client.indices.create(index_name, body=index_body)
     print('\nCreating index:')
     print(response)
-    
+
 create_index(index_name)
 print()

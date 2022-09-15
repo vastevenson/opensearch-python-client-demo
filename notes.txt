@@ -9,4 +9,4 @@ https://docs.aws.amazon.com/opensearch-service/latest/developerguide/request-sig
 5. Modify the config and credentials files: .aws/config and credentials C:\Users\Vincent\.aws\config and C:\Users\Vincent\.aws\credentials
 6. Add in the access key and secret access key ids, also set the default region for boto3 - make sure this is the same region as your OpenSearch domain is located in
 7. Once we have a solid boto3 client set up, we can confirm it's able to authN to our AWS account (boto3_test.py)
-8.
+8. Run app.py to see how we are now able to create an index in our remote cluster with Python on the local machine.
