@@ -1,1 +1,3 @@
 opensearch-py
+certifi
+boto3
